@@ -3,11 +3,11 @@ print ("^3Discord  : https://discord.gg/yQcMBUUkNc")
 print ("^3Info     : Partager le 21/12/2022")
 
 
-Citizen.CreateThread(function()
+CreateThread(function()
     while true do
-        local player = GetPlayerPed(-1)
+        local player = PlayerPedId()
         
-        Citizen.Wait(5*1000) -- checks every 5 seconds (to limit resource usage)
+        Wait(5*1000) -- checks every 5 seconds (to limit resource usage)
         
         SetDiscordAppId(000000000000) -- client id (int)(to change)
 
