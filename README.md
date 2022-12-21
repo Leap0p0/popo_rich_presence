@@ -29,7 +29,7 @@ A discord JS script to update FiveM activity on Discord
 * Put it in your server resources folder.
 
 ## Installation
-Add ``ensure popo_gang`` in the **server.cfg** file.
+Add ``ensure popo_rich_presence`` in the **server.cfg** file.
 
 ## Crédits
 
